@@ -29,7 +29,6 @@ namespace RansomWatcherV2.Helper
             {
                 log.Error($"{message}" + ex?.Message + Environment.NewLine + ex?.InnerException?.Message);
             }
-
         }
 
         private static async Task<string> BroadcastAsync(string message)

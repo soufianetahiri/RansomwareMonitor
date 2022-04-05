@@ -14,8 +14,6 @@ namespace RansomWatcherV2.Helper
         {
             try
             {
-
-
                 XmlReaderSettings settings = new XmlReaderSettings();
 #pragma warning disable CS0618 // Type or member is obsolete
                 settings.ProhibitDtd = false;

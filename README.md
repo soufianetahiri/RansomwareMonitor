@@ -70,6 +70,9 @@ A loosy way to update the list of URLs / Database of hashes is included too, he 
             }
         }
 
+To push hashes to a remote db, you need to edit:
+
+    string  connetionString  =  "server=127.0.0.1;port=5522;database=*;uid=*;*";
 
 Ransomware groups blog's URLs are stored in appsettings.json as follow:
 

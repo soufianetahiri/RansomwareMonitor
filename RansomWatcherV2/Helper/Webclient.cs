@@ -14,8 +14,6 @@ namespace RansomWatcherV2.Helper
 {
     public static class Tclient
     {
-        //static readonly string token = "5044688173:AAExXZC3qTIgIfKGdCCyBIp190SnfSF4H9A";
-        //static readonly string chatId = "-1001798697121";
         static readonly TwitterSupport.Tweet tweetHelper = new TwitterSupport.Tweet();
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 

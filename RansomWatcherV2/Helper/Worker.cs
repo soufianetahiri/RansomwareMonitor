@@ -1073,6 +1073,10 @@ namespace RansomWatcherV2.Helper
                         }
                     }
                 }
+                else
+                {
+                    return false;
+                }
             }
 
             catch (Exception ex)
